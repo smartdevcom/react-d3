@@ -18,6 +18,8 @@ const App = () => {
       }));
 
    const [data, setData] = useState(generateData(0));
+
+   //when click button, change data
    const changeData = () => {
       setData(generateData());
    };
