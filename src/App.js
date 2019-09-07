@@ -9,6 +9,8 @@ import AnimatedPieSVG from './components/AnimatedPieSVG';
 import './styles.css';
 
 const App = () => {
+
+	//generate random data
    const generateData = (value, length = 5) =>
       d3.range(length).map((item, index) => ({
          date: index,
