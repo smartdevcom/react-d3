@@ -22,6 +22,8 @@ const App = () => {
       setData(generateData());
    };
 
+   //setData
+
    useEffect(() => {
       setData(generateData());
    }, [!data]);
