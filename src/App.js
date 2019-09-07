@@ -17,6 +17,8 @@ const App = () => {
          value: value === null || value === undefined ? Math.random() * 100 : value
       }));
 
+      //initialize data
+
    const [data, setData] = useState(generateData(0));
 
    //when click button, change data
